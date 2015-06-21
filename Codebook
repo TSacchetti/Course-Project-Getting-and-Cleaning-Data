@@ -1,0 +1,39 @@
+The Raw data comes from the information below. The goal of this codebook is to help individuals better understand the the final results produced by the code run_analysis.R.
+
+==================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Universit‡ degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+The data is structured with the first column as the identifier for the volunteer. In order to keep volunteers anonymous they were identified with numbers 1:30. The second column of the data describes the activity in which the volunteer was involved was recorded doing. The results shown are the averages of the columns shown over the period in which they were observed. 
+An interpretation of the column names for the data can be used as follows:
+mean(): Contains the mean of the mean of the data 
+std(): Contains the mean of the standard deviation of the data
+Additionally the following information describes the labeling of the columns from the original assignment, the only correction to be noted is the values now represent the average of these activties over the entire time opposed to the original single observations.
+
+"These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag"
+
+I hope the above Codebook helped with your interpretation of the dataset.
